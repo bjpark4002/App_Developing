@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     func sum(){
-        sum_label.text = "\(first_slider.value + second_slider.value )"
+        sum_label.text = String(format: "%.2f", first_slider.value + second_slider.value)
         
     }
     
